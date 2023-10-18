@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@200;300&family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@200;300&display=swap');
+
+body
+{
+    margin: 0px;
+    width: 100vw;
+    height: 50vw;
+    background: url(./fondoForm.jpg);   
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: grid;
+    place-content: center;
+}
+h1
+{
+    font-family: 'Handjet', cursive;
+    background-color: rgba(255, 255, 255, 0.63);
+    border-radius : 0.3vw;
+    position: relative;
+    top: 0.05vw;
+    font-size: 3vw;
+    color: rgb(54, 189, 88);
+    margin: 0px;
+    text-align: center;
+}
+.containerF
+{
+    width: 60vw;
+    height: 38vw;
+    border-radius: 1vw;
+    backdrop-filter: blur(5px);
+}
+table
+{
+    width: 60vw;
+    border: 0.05vw solid rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.63);
+    border-radius: 0.3vw;
+    overflow-y: scroll;
+}
+tr
+{
+    border: 0.1vw solid rgb(0, 0, 0);
+}
+td
+{
+    text-align: center;
+    width: 8vw;
+    height: 1.5vw;
+    border: 0.1vw solid rgb(0, 0, 0);
+    font-size: 1vw;
+    font-family: 'Handjet', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+.editarb
+{
+    background-color: rgb(54, 189, 88);
+    border: none;
+    width: 4vw;
+    height: 1.8vw;
+    padding: 0px;
+    border-radius: 0.2vw;
+    cursor: pointer;
+    font-size: 0.8vw;
+    color: white;
+    font-weight: bold;
+}
+.editarb:hover
+{
+    background-color: rgb(18, 255, 176);
+}
+.eliminarb
+{
+    background-color: red;
+    border-radius: 0.2vw;
+    border: none;
+    width: 4vw;
+    height: 1.8vw;
+    padding: 0px;
+    cursor: pointer;
+    font-size: 0.8vw;
+    color: white;
+    font-weight: bold;
+}
+.eliminarb:hover
+{
+    background-color: rgb(124, 34, 34);
+}
+.editar
+{
+    width: 2vw;
+    border: none;
+    text-align: none;
+}
+.eliminar
+{
+    width: 2vw;
+    border: none;
+    text-align: none;
+}
+.link
+{
+    position: absolute;
+    left: 50.3vw;
+    top: 3.6vw;
+}
+.registrarr
+{
+    height: 1.5vw;
+    width: 9.1vw;
+    background-color: rgb(97, 97, 97);
+    border: none;
+    color: white;
+    border-radius: 0.2vw;
+    font-size: 0.8vw;;
+    font-weight: bold;
+}
+.registrarr:hover
+{
+    background-color: rgba(128, 128, 128, 0.521);
+}

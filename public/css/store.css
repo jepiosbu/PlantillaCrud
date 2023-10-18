@@ -1,0 +1,37 @@
+body
+{
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: url(./fondoForm.jpg);   
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: grid;
+    place-content: center;
+}
+.containerF
+{
+    width: 35vw;
+    height: 30vw;
+    border-radius: 1vw;
+    backdrop-filter: blur(3px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1
+{
+    font-size: 2vw;
+}
+.inputSu
+{
+    width: 15vw;
+    height: 2.4vw;
+    background-color: black;
+    color: white;
+    font-size: 1vw;
+    font-weight: bold;
+    border-radius: 1vw;
+    cursor: pointer;
+}
